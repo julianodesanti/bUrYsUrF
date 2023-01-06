@@ -1,0 +1,118 @@
+body, html {
+	height: 100%;
+	font-family: 'Inconsolata', monospace;
+	color: white;
+	background-color: black;
+	margin:0;
+}
+
+main {
+	background-color: black;
+	margin:0 auto;
+	width: 980;
+	position: relative;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-bottom: 12px;
+}
+
+.capa {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-image: url("./img/ocean.jpg");
+	min-height: 50%;
+	width: 100%
+}
+
+
+.tag {
+	background-color:#000;
+	color:#fff;
+	display:inline-block;
+	padding-left:8px;
+	padding-right:8px;
+	text-align:center;
+}
+
+.tag2 {
+	position:absolute;
+	top:50%;left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+
+.horario {
+	position:absolute;
+	left:0;
+	bottom:0;
+	text-align:center;
+	padding:12px 24px;	
+}
+
+.horariotag {
+	background-color:#000;
+	color:#fff;
+	display:inline-block;
+	padding-left:8px;
+	padding-right:8px;
+	text-align:center;
+	
+}
+
+.data {
+	position:absolute;
+	right:0;
+	bottom:0;
+	text-align:center;
+	padding-right:12px;
+}
+
+.bgmenu {
+	position: relative;
+	width: 100%;
+
+}
+
+.menu {
+	color:white;
+	background-color:black;
+	width: 100%;
+}
+
+.menu {
+	position: absolute;
+	text-align: center;
+}
+
+.menu ul li {
+	position: static;
+	
+	
+	
+}
+ /* Referência: https://codepen.io/WhisnuYs/pen/XWdpdGP */
+.menu a {
+	color: #f6f4e6;
+	text-decoration: none;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: 500;
+	display: inline-block;
+	width: 80px;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	padding: 12px;
+}
+
+.menu a:hover {
+  color: blue; 
+}
