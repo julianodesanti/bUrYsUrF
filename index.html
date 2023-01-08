@@ -3,7 +3,8 @@
 <head>
 	<title>bUrY_+sUrF</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">	
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
 </head>
 <body>
 	<header class="capa" id="home">
@@ -22,19 +23,134 @@
 			</div>	
 	</header>
 	<main>
-				<div class="bgmenu">
-					<nav class="menu">
-						<ul>
-								<a href="">HOME</a>
-								<a href="">FOTOS</a>
-								<a href="">VÍDEOS</a>
-								<a href="">ONDAS</a>
-								<a href="">TEMPO</a>
-								<a href="">CONTATO</a>
-						</ul>
-					</nav>
-				</div>
+			<div class="twitter">
+				<a class="twitter-timeline" data-width="300" data-height="300" data-theme="dark" href="https://twitter.com/twitter">Tweets by julianodesanti</a> 
+			</div>
+<!-- Referência: https://saladestudo.com.br/tutoriais/tutorial-abas-de-navegacao-com-html-e-css-sem-javascript -->
+		<nav class="nav_tabs">
+			<ul>
+				<li>
+					<input type="radio" id="tab1" class="rd_tab" name="tabs">
+					<label for="tab1" class="tab_label">HOME</label>
+					<div class="tab-content">
+						<article>
+							<p>EM CONSTRUÇÃO</p>
+						</article>
+					</div>
+				</li>
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab2">
+					<label for="tab2" class="tab_label">FOTOS</label>
+					<div class="tab-content">
+						<article>
 
+							<img src="./css/img/prancha/primeira.jpg" alt="primeira" style="width:100%">
+							
+							<img src="./css/img/prancha/guitarra5.jpg" alt="guitarra5" style="width:100%">
+
+							<img src="./css/img/prancha/guitarra4.jpg" alt="guitarra4" style="width:100%">
+
+							<img src="./css/img/prancha/guitarra2.jpg" alt="guitarra2" style="width:100%">
+							
+							<img src="./css/img/prancha/guitarra1.jpg" alt="guitarra1" style="width:100%">
+							
+							<img src="./css/img/prancha/guitarra3.jpg" alt="guitarra3" style="width:100%">
+
+							<img src="./css/img/prancha/guitarra6.jpg" alt="guitarra6" style="width:100%">
+
+							<img src="./css/img/prancha/ultima.jpg" alt="ultima" style="width:100%">
+
+						</article>
+					</div>
+				</li>
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab3">
+					<label for="tab3" class="tab_label">VÍDEOS</label>
+					<div class="tab-content">
+						<article>
+							
+						</article>
+					</div>
+				</li>
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab4">
+					<label for="tab4" class="tab_label">ONDAS</label>
+					<div class="tab-content">
+						<article>
+							<div class="w3-row w3-center w3-card w3-padding">
+								<div class="tagg">
+									<h5 class="tagg"><span>PRIVISÃO DE ONDAS</span></h5>
+									<div>
+										<img src="http://img0.cptec.inpe.br/~rgrafico/portal_ondas/wwatch/global/altura/anima_altura.gif" hspace="30" vspace="30" width="200" height="250" />
+										<a href="http://ondas.cptec.inpe.br/">CPTEC</a>
+										<a href="http://www.surfguru.com.br/"> </a> <a href="http://www.surfguru.com.br/">SURFGURU</a>
+										<a href="https://ciram.epagri.sc.gov.br/index.php/previsao-de-ondas/">EPAGRI</a>
+									</div>
+								</div>
+							</div>
+							<br><br>
+						</article>
+					</div>
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab5" checked>
+					<label for="tab5" class="tab_label">CONTATO</label>
+					<div class="tab-content">
+						<article>
+							<div class="center"> 	
+								<div>
+									<div class="tag">
+										<a href="http://www.twitter.com/julianodesanti">Twitter</a><br>
+										<a href="http://www.instagram.com/julianodesanti">Instagram</a><br>
+										<a href="http://www.facebook.com/juIianodesanti">Facebook</a>
+									</div>
+								</div>
+<!-- About Container -->
+								<div class="w3-container" id="about">
+								  <div class="center">
+									<span class="center">ABOUT bUrY_+sUrF</span>
+									<p align="left"><u>#Tag</u> is the new branding.</p>
+										<div class="poesias">
+											<p align="left"> 
+											"Quero que a estrofe cristalina,
+											<br>
+											Dobrada ao jeito
+											<br>
+											Do ourives, saia da oficina
+											<br>
+											Sem um defeito.
+											<br>
+											Assim procedo.
+											<br>
+											Minha pena
+											<br>
+											Segue essa norma.
+											<br>
+											Por te servir, 
+											<br>
+											Deusa Serena,
+											<br>
+											Serena Forma." 
+											</p>
+											<p align="right">(Olavo Bilac)</p>
+											<br>
+											<p align="left"><i>"Bárbaros, crédulos, pitorescos e meigos. Leitores de jornais. Pau-Brasil. A floresta e a escola. O Museu
+									Nacional. A cozinha, o minério e a dança. A vegetação. Pau-Brasil."</i></p>
+											<p align="right">(Oswald de Andrade, Correio da Manhã, 18 de março de 1924.)</p>
+											<br>
+											<p align="left"><i>"O imaginativo está sempre preparado.”</i></p>
+											<p align="right">(Hermann Keyserling)</p>
+											<br>
+											<br>
+										</div>
+								  </div>
+								</div>
+							</div>
+						</article>
+					</div>
+				</li>
+				</li>
+			</ul>
+		</nav>
 	</main>
 <footer>
   	<div>
@@ -42,5 +158,6 @@
 	</div>
 </footer> 
 <script type="text/javascript" src="./js/main.js"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
