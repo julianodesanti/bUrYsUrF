@@ -141,8 +141,9 @@ footer {
 
 .twitter {
 	position:absolute;
-	right: 80px;
-	padding:25px;
+	width:100%;
+	right:0;
+	padding:15px;
 	
 }
 
