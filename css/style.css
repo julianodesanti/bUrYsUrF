@@ -9,21 +9,20 @@ body, html {
 main {
 	background-color: black;
 	margin:0 auto;
-	width: 980;
-	height: auto;
+	width: 100%;
 	position:relative;
-	
+	height:1300px;
 }
 
 footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
+	position: absolute;
+	bottom:0 auto;
 	background-color: black;
 	color: white;
-	text-align: center;
 	padding-bottom: 12px;
+	padding-left:8px;
+	padding-right:8px;
+	left:30%;
 }
 
 .capa {
@@ -174,103 +173,28 @@ a:visited {
   padding:40px;
 }
 
-.p4 {
-  -webkit-text-stroke: 1px blue;
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 30px;
-  font-weight: bold;
-  color: lightgreen;
-}
-
 .poesias {
 	color:black;
 	background-color:white;
 	padding: 15px;
 }
-/*
-.nav_tabs {
-	width:1000px;
-	height:auto;
-	margin:0 auto;	
+
+.ondas a {
+	display:inline-block;
+	margin:0 auto;
+	padding:15px;
+	-webkit-text-stroke: 1px blue;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 30px;
+	font-weight: bold;
+	color: lightgreen;
 }
 
-.nav_tabs ul {
-	list-style:none;
+.ondastag {
+	text-align:center;
+	font-size: 30px;
 }
 
-.nav_tabs ul li {
-	float:left;
+.home {
+	padding:50px;
 }
-
-.nav_tabs label {
-	color: white;
-	text-decoration: none;
-	font-size: 1.2em;
-	padding: 12px;
-}
-
-.rd_tabs:checked ~ label {
-	background-color:white;
-	color:black;
-}
-
-.rd_tabs {
-	display:none;
-}
-
-.content {
-	position:absolute;
-	height:auto;
-	width:auto;
-}
-
-.rd_tabs:checked ~ .content {
-	display:block;
-}
-
-
-
-
-
-
-.bgmenu {
-	position: relative;
-	width: 100%;
-
-}
-
-.menu {
-	color:white;
-	background-color:black;
-	width: 100%;
-}
-
-.menu {
-	position: absolute;
-	text-align: center;
-}
-
-.menu ul li {
-	position: static;
-	
-	
-	
-}
- Referência: https://codepen.io/WhisnuYs/pen/XWdpdGP
-.menu p {
-	color: #f6f4e6;
-	text-decoration: none;
-	font-size: 1.2em;
-	text-transform: uppercase;
-	font-weight: 500;
-	display: inline-block;
-	width: 80px;
-	-webkit-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
-	padding: 12px;
-}
-
-.menu a:hover {
-  color: blue; 
-}
-*/
